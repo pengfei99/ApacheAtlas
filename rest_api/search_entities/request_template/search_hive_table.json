@@ -1,0 +1,10 @@
+{
+  "typeName": "hive_table",
+  "excludeDeletedEntities": true,
+  "classification" : "",
+  "query": "",
+  "limit": 25,
+  "offset": 0,
+  "tagFilters": null,
+  "attributes": [""]
+}

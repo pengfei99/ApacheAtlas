@@ -1,0 +1,380 @@
+{
+  "referredEntities": {
+    "625ed183-211d-48a9-a37f-532cd66275c5": {
+      "typeName": "hive_column",
+      "attributes": {
+        "owner": null,
+        "replicatedTo": [],
+        "userDescription": null,
+        "replicatedFrom": [],
+        "qualifiedName": "default.students.studentID",
+        "displayName": null,
+        "name": "studentID",
+        "description": null,
+        "comment": null,
+        "position": 0,
+        "type": "int",
+        "table": {
+          "guid": "e57ce313-ef6c-4ada-b40d-697b693893f6",
+          "typeName": "hive_table"
+        }
+      },
+      "guid": "625ed183-211d-48a9-a37f-532cd66275c5",
+      "isIncomplete": false,
+      "status": "ACTIVE",
+      "createdBy": "pengfei",
+      "updatedBy": "pengfei",
+      "createTime": 1647249156946,
+      "updateTime": 1647249156946,
+      "version": 0,
+      "relationshipAttributes": {
+        "inputToProcesses": [],
+        "schema": [],
+        "meanings": [],
+        "table": {
+          "guid": "e57ce313-ef6c-4ada-b40d-697b693893f6",
+          "typeName": "hive_table",
+          "entityStatus": "ACTIVE",
+          "displayText": "students",
+          "relationshipType": "hive_table_columns",
+          "relationshipGuid": "8c0a8e8b-aa21-44e3-b445-334906a418bc",
+          "relationshipStatus": "ACTIVE",
+          "relationshipAttributes": {
+            "typeName": "hive_table_columns"
+          }
+        },
+        "outputFromProcesses": []
+      },
+      "labels": []
+    },
+    "3fcd8dde-c3b9-4457-a52e-395bd9d7301b": {
+      "typeName": "hive_column",
+      "attributes": {
+        "owner": null,
+        "replicatedTo": [],
+        "userDescription": null,
+        "replicatedFrom": [],
+        "qualifiedName": "default.students.year",
+        "displayName": null,
+        "name": "year",
+        "description": null,
+        "comment": null,
+        "position": 0,
+        "type": "string",
+        "table": {
+          "guid": "e57ce313-ef6c-4ada-b40d-697b693893f6",
+          "typeName": "hive_table"
+        }
+      },
+      "guid": "3fcd8dde-c3b9-4457-a52e-395bd9d7301b",
+      "isIncomplete": false,
+      "status": "ACTIVE",
+      "createdBy": "pengfei",
+      "updatedBy": "pengfei",
+      "createTime": 1647250563708,
+      "updateTime": 1647250563708,
+      "version": 0,
+      "relationshipAttributes": {
+        "inputToProcesses": [],
+        "schema": [],
+        "meanings": [],
+        "table": {
+          "guid": "e57ce313-ef6c-4ada-b40d-697b693893f6",
+          "typeName": "hive_table",
+          "entityStatus": "ACTIVE",
+          "displayText": "students",
+          "relationshipType": "hive_table_columns",
+          "relationshipGuid": "7318335b-eade-4147-9b08-3f8f2447a8ed",
+          "relationshipStatus": "ACTIVE",
+          "relationshipAttributes": {
+            "typeName": "hive_table_columns"
+          }
+        },
+        "outputFromProcesses": []
+      },
+      "labels": []
+    },
+    "ad87c56f-9f0a-487a-88cf-27ece45fec9b": {
+      "typeName": "hive_column",
+      "attributes": {
+        "owner": null,
+        "replicatedTo": [],
+        "userDescription": null,
+        "replicatedFrom": [],
+        "qualifiedName": "default.students.firstName",
+        "displayName": null,
+        "name": "firstName",
+        "description": null,
+        "comment": null,
+        "position": 0,
+        "type": "string",
+        "table": {
+          "guid": "e57ce313-ef6c-4ada-b40d-697b693893f6",
+          "typeName": "hive_table"
+        }
+      },
+      "guid": "ad87c56f-9f0a-487a-88cf-27ece45fec9b",
+      "isIncomplete": false,
+      "status": "ACTIVE",
+      "createdBy": "pengfei",
+      "updatedBy": "pengfei",
+      "createTime": 1647249274457,
+      "updateTime": 1647249274457,
+      "version": 0,
+      "relationshipAttributes": {
+        "inputToProcesses": [],
+        "schema": [],
+        "meanings": [],
+        "table": {
+          "guid": "e57ce313-ef6c-4ada-b40d-697b693893f6",
+          "typeName": "hive_table",
+          "entityStatus": "ACTIVE",
+          "displayText": "students",
+          "relationshipType": "hive_table_columns",
+          "relationshipGuid": "f617b05c-5848-40de-a1a3-c6d60a411e3c",
+          "relationshipStatus": "ACTIVE",
+          "relationshipAttributes": {
+            "typeName": "hive_table_columns"
+          }
+        },
+        "outputFromProcesses": []
+      },
+      "labels": []
+    },
+    "99c439fa-e2bd-42d6-9970-0d9f6b203cee": {
+      "typeName": "hive_column",
+      "attributes": {
+        "owner": null,
+        "replicatedTo": [],
+        "userDescription": null,
+        "replicatedFrom": [],
+        "qualifiedName": "default.students.major",
+        "displayName": null,
+        "name": "major",
+        "description": null,
+        "comment": null,
+        "position": 0,
+        "type": "string",
+        "table": {
+          "guid": "e57ce313-ef6c-4ada-b40d-697b693893f6",
+          "typeName": "hive_table"
+        }
+      },
+      "guid": "99c439fa-e2bd-42d6-9970-0d9f6b203cee",
+      "isIncomplete": false,
+      "status": "ACTIVE",
+      "createdBy": "pengfei",
+      "updatedBy": "pengfei",
+      "createTime": 1647250637670,
+      "updateTime": 1647250637670,
+      "version": 0,
+      "relationshipAttributes": {
+        "inputToProcesses": [],
+        "schema": [],
+        "meanings": [],
+        "table": {
+          "guid": "e57ce313-ef6c-4ada-b40d-697b693893f6",
+          "typeName": "hive_table",
+          "entityStatus": "ACTIVE",
+          "displayText": "students",
+          "relationshipType": "hive_table_columns",
+          "relationshipGuid": "991c1050-d9ae-4e5d-9e99-1abea6fe846c",
+          "relationshipStatus": "ACTIVE",
+          "relationshipAttributes": {
+            "typeName": "hive_table_columns"
+          }
+        },
+        "outputFromProcesses": []
+      },
+      "labels": []
+    },
+    "b6529c50-7de7-4672-a51b-6a64cc1c0299": {
+      "typeName": "hive_column",
+      "attributes": {
+        "owner": null,
+        "replicatedTo": [],
+        "userDescription": null,
+        "replicatedFrom": [],
+        "qualifiedName": "default.students.lastName",
+        "displayName": null,
+        "name": "lastName",
+        "description": null,
+        "comment": null,
+        "position": 0,
+        "type": "string",
+        "table": {
+          "guid": "e57ce313-ef6c-4ada-b40d-697b693893f6",
+          "typeName": "hive_table"
+        }
+      },
+      "guid": "b6529c50-7de7-4672-a51b-6a64cc1c0299",
+      "isIncomplete": false,
+      "status": "ACTIVE",
+      "createdBy": "pengfei",
+      "updatedBy": "pengfei",
+      "createTime": 1647249336265,
+      "updateTime": 1647249336265,
+      "version": 0,
+      "relationshipAttributes": {
+        "inputToProcesses": [],
+        "schema": [],
+        "meanings": [],
+        "table": {
+          "guid": "e57ce313-ef6c-4ada-b40d-697b693893f6",
+          "typeName": "hive_table",
+          "entityStatus": "ACTIVE",
+          "displayText": "students",
+          "relationshipType": "hive_table_columns",
+          "relationshipGuid": "08d52c01-3b92-461d-a7b8-c9f0bb16354b",
+          "relationshipStatus": "ACTIVE",
+          "relationshipAttributes": {
+            "typeName": "hive_table_columns"
+          }
+        },
+        "outputFromProcesses": []
+      },
+      "labels": []
+    }
+  },
+  "entity": {
+    "typeName": "hive_table",
+    "attributes": {
+      "owner": null,
+      "temporary": false,
+      "lastAccessTime": 1647212400000,
+      "aliases": [],
+      "replicatedTo": [],
+      "userDescription": null,
+      "replicatedFrom": [],
+      "qualifiedName": "default.students",
+      "displayName": null,
+      "columns": [
+        {
+          "guid": "b6529c50-7de7-4672-a51b-6a64cc1c0299",
+          "typeName": "hive_column"
+        },
+        {
+          "guid": "3fcd8dde-c3b9-4457-a52e-395bd9d7301b",
+          "typeName": "hive_column"
+        },
+        {
+          "guid": "625ed183-211d-48a9-a37f-532cd66275c5",
+          "typeName": "hive_column"
+        },
+        {
+          "guid": "ad87c56f-9f0a-487a-88cf-27ece45fec9b",
+          "typeName": "hive_column"
+        },
+        {
+          "guid": "99c439fa-e2bd-42d6-9970-0d9f6b203cee",
+          "typeName": "hive_column"
+        }
+      ],
+      "description": null,
+      "viewExpandedText": null,
+      "tableType": null,
+      "createTime": 1647212400000,
+      "name": "students",
+      "comment": null,
+      "partitionKeys": [],
+      "parameters": null,
+      "retention": 0,
+      "viewOriginalText": null,
+      "db": {
+        "guid": "a5201924-87f7-4c3c-aab4-b8086917b108",
+        "typeName": "hive_db"
+      }
+    },
+    "guid": "e57ce313-ef6c-4ada-b40d-697b693893f6",
+    "isIncomplete": false,
+    "status": "ACTIVE",
+    "createdBy": "pengfei",
+    "updatedBy": "pengfei",
+    "createTime": 1647248347081,
+    "updateTime": 1647250637670,
+    "version": 0,
+    "relationshipAttributes": {
+      "inputToProcesses": [],
+      "schema": [],
+      "ddlQueries": [],
+      "columns": [
+        {
+          "guid": "b6529c50-7de7-4672-a51b-6a64cc1c0299",
+          "typeName": "hive_column",
+          "entityStatus": "ACTIVE",
+          "displayText": "lastName",
+          "relationshipType": "hive_table_columns",
+          "relationshipGuid": "08d52c01-3b92-461d-a7b8-c9f0bb16354b",
+          "relationshipStatus": "ACTIVE",
+          "relationshipAttributes": {
+            "typeName": "hive_table_columns"
+          }
+        },
+        {
+          "guid": "3fcd8dde-c3b9-4457-a52e-395bd9d7301b",
+          "typeName": "hive_column",
+          "entityStatus": "ACTIVE",
+          "displayText": "year",
+          "relationshipType": "hive_table_columns",
+          "relationshipGuid": "7318335b-eade-4147-9b08-3f8f2447a8ed",
+          "relationshipStatus": "ACTIVE",
+          "relationshipAttributes": {
+            "typeName": "hive_table_columns"
+          }
+        },
+        {
+          "guid": "625ed183-211d-48a9-a37f-532cd66275c5",
+          "typeName": "hive_column",
+          "entityStatus": "ACTIVE",
+          "displayText": "studentID",
+          "relationshipType": "hive_table_columns",
+          "relationshipGuid": "8c0a8e8b-aa21-44e3-b445-334906a418bc",
+          "relationshipStatus": "ACTIVE",
+          "relationshipAttributes": {
+            "typeName": "hive_table_columns"
+          }
+        },
+        {
+          "guid": "ad87c56f-9f0a-487a-88cf-27ece45fec9b",
+          "typeName": "hive_column",
+          "entityStatus": "ACTIVE",
+          "displayText": "firstName",
+          "relationshipType": "hive_table_columns",
+          "relationshipGuid": "f617b05c-5848-40de-a1a3-c6d60a411e3c",
+          "relationshipStatus": "ACTIVE",
+          "relationshipAttributes": {
+            "typeName": "hive_table_columns"
+          }
+        },
+        {
+          "guid": "99c439fa-e2bd-42d6-9970-0d9f6b203cee",
+          "typeName": "hive_column",
+          "entityStatus": "ACTIVE",
+          "displayText": "major",
+          "relationshipType": "hive_table_columns",
+          "relationshipGuid": "991c1050-d9ae-4e5d-9e99-1abea6fe846c",
+          "relationshipStatus": "ACTIVE",
+          "relationshipAttributes": {
+            "typeName": "hive_table_columns"
+          }
+        }
+      ],
+      "partitionKeys": [],
+      "meanings": [],
+      "db": {
+        "guid": "a5201924-87f7-4c3c-aab4-b8086917b108",
+        "typeName": "hive_db",
+        "entityStatus": "ACTIVE",
+        "displayText": "default",
+        "relationshipType": "hive_table_db",
+        "relationshipGuid": "05959fed-b3d5-408e-adf2-65db7a22bb2b",
+        "relationshipStatus": "ACTIVE",
+        "relationshipAttributes": {
+          "typeName": "hive_table_db"
+        }
+      },
+      "outputFromProcesses": []
+    },
+    "labels": []
+  }
+}

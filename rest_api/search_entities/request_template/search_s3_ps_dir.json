@@ -1,5 +1,5 @@
 {
-  "typeName": "aws_s3_object",
+  "typeName": "aws_s3_pseudo_dir",
   "excludeDeletedEntities": true,
   "query": "",
   "limit": 50,
@@ -9,3 +9,4 @@
     ""
   ]
 }
+
