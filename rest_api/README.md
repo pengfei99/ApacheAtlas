@@ -98,7 +98,7 @@ Note The rest API changes with the update of the atlas, so you may encounter err
 curl http://localhost:21000/api/atlas/v2/search/basic?typeName=hive_db
 
 # a more complete curl command for search basic
-curl -X GET --header 'Accept: application/json' -u admin:kdHVNXuo1zMjnM32QqAk 'http://localhost:21000/api/atlas/v2/search/basic?typeName=GPFSDataFile'
+curl -X GET --header 'Accept: application/json' -u admin:pwd 'http://localhost:21000/api/atlas/v2/search/basic?typeName=GPFSDataFile'
 
 # if you don't want pass parameters with "?", you can also supply a JSON data payload
 # -g means globoff, when you set this option, you can specify URLs that contain the letters {}[] without having 
@@ -106,10 +106,10 @@ curl -X GET --header 'Accept: application/json' -u admin:kdHVNXuo1zMjnM32QqAk 'h
 # Note that these letters are not normal legal URL contents but they should be encoded according to the URI standard.
 # -d means data
 # @. means current directory
-curl -u admin:kdHVNXuo1zMjnM32QqAk -X POST -H 'Content-Type: application/json' -H 'Accept: application/json' "http://localhost:21000/api/atlas/v2/search/basic" -d "@./searchByOwner.json"
+curl -u admin:pwd -X POST -H 'Content-Type: application/json' -H 'Accept: application/json' "http://localhost:21000/api/atlas/v2/search/basic" -d "@./searchByOwner.json"
 
 # basic search with json payload and multi conditioin (OR)
-curl -u admin:kdHVNXuo1zMjnM32QqAk -X POST -H 'Content-Type: application/json' -H 'Accept: application/json' "http://localhost:21000/api/atlas/v2/search/basic" -d "@./searchMultiCond.json"
+curl -u admin:pwd -X POST -H 'Content-Type: application/json' -H 'Accept: application/json' "http://localhost:21000/api/atlas/v2/search/basic" -d "@./searchMultiCond.json"
 
 ```
 
@@ -391,10 +391,10 @@ Now we can use the bulk add typedef api to add the above type definition into At
 
 ```shell
 # add new type definition (entity)
-curl -u admin:kdHVNXuo1zMjnM32QqAk -X POST -H 'Content-Type: application/json' -H 'Accept: application/json' "http://localhost:21000/api/atlas/v2/types/typedefs" -d "@./typeDef_datafile.json"
+curl -u admin:pwd -X POST -H 'Content-Type: application/json' -H 'Accept: application/json' "http://localhost:21000/api/atlas/v2/types/typedefs" -d "@./typeDef_datafile.json"
 
 # check the newly added entity
-curl -u admin:kdHVNXuo1zMjnM32QqAk http://localhost:21000/api/atlas/v2/types/typedef/name/GPFSDataFile
+curl -u admin:pwd http://localhost:21000/api/atlas/v2/types/typedef/name/GPFSDataFile
 
 ```
 
@@ -425,10 +425,10 @@ curl -X GET -u admin:admin --header 'Accept: application/json' 'http://atlas.lab
 
 
 # Get all the entities in a given type
-curl -u admin:kdHVNXuo1zMjnM32QqAk -X GET http://localhost:21000/api/atlas/entities?type=GPFS_Path
+curl -u admin:pwd -X GET http://localhost:21000/api/atlas/entities?type=GPFS_Path
 
 # delete an entity based on its guid
-curl -iv -u admin:kdHVNXuo1zMjnM32QqAk -X DELETE http://localhost:21000/api/atlas/entities?guid=b1ed9bc1-e6e7-48f6-ac70-578ecb13ce79
+curl -iv -u admin:pwd -X DELETE http://localhost:21000/api/atlas/entities?guid=b1ed9bc1-e6e7-48f6-ac70-578ecb13ce79
 
 ```
 
