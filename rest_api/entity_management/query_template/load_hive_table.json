@@ -1,0 +1,40 @@
+{
+  "referredEntities": {},
+  "entity": {
+    "typeName": "hive_table",
+    "attributes": {
+      "owner": "pliu",
+      "temporary": false,
+      "lastAccessTime": 1647212400000,
+      "aliases": [],
+      "replicatedTo": [],
+      "userDescription": null,
+      "replicatedFrom": [],
+      "qualifiedName": "insee.org@insee-data.students_test",
+      "displayName": "students_test",
+      "description": null,
+      "db": {
+        "typeName": "hive_db",
+        "uniqueAttributes": {
+            "qualifiedName": "insee.org@insee-data"
+          }
+      },
+      "viewExpandedText": null,
+      "tableType": null,
+      "createTime": 1647212400000,
+      "name": "students_test",
+      "comment": null,
+      "parameters": null,
+      "retention": 0,
+      "viewOriginalText": null
+    },
+    "isIncomplete": false,
+    "status": "ACTIVE",
+    "createdBy": "pengfei",
+    "updatedBy": "pengfei",
+    "createTime": 1647248347081,
+    "updateTime": 1647250637670,
+    "version": 0,
+    "labels": []
+  }
+}
