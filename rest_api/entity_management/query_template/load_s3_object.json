@@ -1,0 +1,32 @@
+{
+  "entity" : {
+   "typeName": "aws_s3_object",
+      "attributes": {
+        "owner": "pliu",
+        "replicatedTo": null,
+        "replicatedFrom": null,
+        "createTime": 1601503200000,
+        "qualifiedName": "s3://minio.lab.sspcloud.fr/donnees-insee/RP/rp99",
+        "dataType": "csv",
+        "name": "rp99",
+        "description": "rp 99 insee pub",
+        "compressionType": null,
+        "pseudoDirectory": {
+          "typeName": "aws_s3_pseudo_dir",
+          "uniqueAttributes": {
+            "qualifiedName": "s3://minio.lab.sspcloud.fr/donnees-insee/RP/",
+            "objectPrefix": "RP/"
+          }
+        },
+        "avroSchema": null,
+        "awsTags": []
+      },
+      "status": "ACTIVE",
+      "createdBy": "pliu",
+      "updatedBy": "pliu",
+      "createTime": 1601546252875,
+      "updateTime": 1601546491961,
+      "version": 0
+
+  }
+}

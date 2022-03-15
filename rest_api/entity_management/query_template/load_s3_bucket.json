@@ -1,0 +1,23 @@
+{
+  "entity" : {
+    "status" : "ACTIVE",
+    "createdBy" : "pliu",
+    "updatedBy" : "pliu",
+    "createTime": 1601558219951,
+    "updateTime": 1601558219951,
+    "version" : 0,
+   "typeName": "aws_s3_bucket",
+      "attributes": {
+        "owner": "pliu",
+        "createtime": 1601503200000,
+        "qualifiedName": "s3://minio.lab.sspcloud.fr/donnees-insee",
+        "encryptionType": "none",
+        "description": "Public data of Insee",
+        "partner": "none",
+        "domain": "minio.lab.sspcloud.fr",
+        "isEncrypted": false,
+        "name": "donnees-insee",
+        "region": "none"
+      }
+  }
+}

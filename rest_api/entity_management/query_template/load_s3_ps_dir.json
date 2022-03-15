@@ -1,0 +1,35 @@
+{
+  "entities": [
+    {
+      "typeName": "aws_s3_pseudo_dir",
+      "attributes": {
+        "owner": null,
+        "replicatedTo": null,
+        "replicatedFrom": null,
+        "qualifiedName": "s3://minio.lab.sspcloud.fr/donnees-insee/RP/",
+        "subject": null,
+        "dataType": null,
+        "description": null,
+        "objectPrefix": "RP/",
+        "bucket": {
+          "typeName": "aws_s3_bucket",
+          "uniqueAttributes": {
+            "qualifiedName": "s3://minio.lab.sspcloud.fr/donnees-insee"
+          }
+        },
+        "createTime": 1601503200000,
+        "currentStorageLocation": null,
+        "name": "RP",
+        "subdomain": null,
+        "avroSchemas": [],
+        "awsTags": []
+      },
+      "status": "ACTIVE",
+      "createdBy": "pliu",
+      "updatedBy": "pliu",
+      "createTime": 1601546079051,
+      "updateTime": 1601546252875,
+      "version": 0
+    }
+  ]
+}
