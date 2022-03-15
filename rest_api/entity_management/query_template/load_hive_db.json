@@ -1,0 +1,28 @@
+{
+  "referredEntities": {},
+  "entity": {
+    "typeName": "hive_db",
+    "attributes": {
+      "owner": "pliu",
+      "ownerType": "user",
+      "replicatedTo": [],
+      "userDescription": null,
+      "replicatedFrom": [],
+      "qualifiedName": "insee.org@insee-data",
+      "displayName": "insee-data",
+      "clusterName": "insee.org",
+      "name": "insee-data",
+      "description": "insee data for testing ",
+      "location": null,
+      "parameters": null
+    },
+    "isIncomplete": false,
+    "status": "ACTIVE",
+    "createdBy": "pengfei",
+    "updatedBy": "pengfei",
+    "createTime": 1647248769815,
+    "updateTime": 1647248804548,
+    "version": 0,
+    "labels": []
+  }
+}
