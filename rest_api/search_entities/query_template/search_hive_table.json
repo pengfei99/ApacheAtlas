@@ -2,6 +2,11 @@
   "typeName": "hive_table",
   "excludeDeletedEntities": true,
   "classification" : "",
+  "entityFilters": {
+    "attributeName": "qualifiedName",
+    "attributeValue": "user-pengfei@movies.Character",
+    "operator": "startsWith"
+  },
   "query": "",
   "limit": 25,
   "offset": 0,
