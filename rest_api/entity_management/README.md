@@ -532,8 +532,10 @@ with the qualifiedName of the hive_table. For example,
 When we delete an entity in atlas, the entity is just marked as deleted, but it still stays inside the database. To 
 remove these deleted entities, you need to run below purge command.
 
+**Note the endpoint for purge does not contain /v2**
+
 ```shell
-curl -H "Authorization: Bearer ${token}" -X PUT "https://atlas.lab.sspcloud.fr/api/atlas/v2/admin/purge/" \
+curl -H "Authorization: Bearer ${token}" -X PUT "https://atlas.lab.sspcloud.fr/api/atlas/admin/purge/" \
 -H "Content-Type: application/json" \
 -d '["5f0d5c6b-6e73-4fe2-a3e7-cfcc96a4ad95"]'
 ```
