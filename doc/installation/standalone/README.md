@@ -60,7 +60,7 @@ mvn clean \
         package -Pdist,embedded-hbase-solr
 ```
 
-### 1.3 Deploy the atlas application
+## 2 Deploy the atlas application
 
 If the above steps goes well, you should see a new tar ball(i.e. `apache-atlas-${VERSION}-server.tar.gz`) in 
 `/tmp/atlas-src/distro/target/`
@@ -108,7 +108,7 @@ touch /opt/apache-atlas/logs/application.log
 ./atlas_start.py -setup
 ```
 
-### 1.3 Run the application
+## 3 Run the application
 
 ```shell
 # start the application
@@ -118,3 +118,12 @@ touch /opt/apache-atlas/logs/application.log
 tail -f /apache-atlas/logs/application.log
 ```
 
+## 4. Advance configuration
+
+With the above configuration, we use a file to store user login and password, and there is no access control. To make
+a production instance, we need to add an authentication and an authorization mechanism to the Atlas server.
+
+We need to follow the below steps:
+- modify the **atlas-application.properties** to enable authentication and authorization mechanism 
+- add required authentication conf file (e.g. keycloak.json for keycloak auth)
+- add required authorization conf file (e.g. authorization-policy.json)

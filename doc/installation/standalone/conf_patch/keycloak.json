@@ -1,0 +1,9 @@
+{"realm": "realm",
+    "auth-server-url": "https://change.me/auth",
+    "ssl-required": "external",
+    "resource": "atlas",
+    "public-client": true,
+    "confidential-port": 0,
+    "principal-attribute": "preferred_username",
+    "autodetect-bearer-only": true
+}
