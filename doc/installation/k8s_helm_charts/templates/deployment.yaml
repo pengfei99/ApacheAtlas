@@ -49,8 +49,8 @@ spec:
             mountPath: /opt/apache-atlas-2.1.0/conf/keycloak.json
             subPath: keycloak.json
           - name: atlas-config
-            mountPath: /opt/apache-atlas-2.1.0/conf/sspcloud-authorization-policy.json
-            subPath: sspcloud-authorization-policy.json
+            mountPath: /opt/apache-atlas-2.1.0/conf/sspcloud-authz-policy.json
+            subPath: sspcloud-authz-policy.json
           - name: atlas-data-volume
             mountPath: /opt/apache-atlas-2.1.0/data
           resources:

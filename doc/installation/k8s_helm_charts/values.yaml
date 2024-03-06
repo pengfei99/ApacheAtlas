@@ -24,7 +24,7 @@ atlasApp:
       ugiGroup: false
     authorization:
       mode: simple
-      policyFile: ${sys:atlas.home}/conf/sspcloud-authorization-policy.json
+      policyFile: ${sys:atlas.home}/conf/sspcloud-authz-policy.json
   serverProperties:
     restUrl: http://localhost:21000
 
